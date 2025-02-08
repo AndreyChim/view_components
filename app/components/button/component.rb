@@ -1,6 +1,5 @@
 
-module MyEngine
-  class ButtonComponent < ViewComponent::Base
+  class Button::Component < BaseComponent
     def initialize(label:, type: :primary)
       @label = label
       @type = type
@@ -21,4 +20,3 @@ module MyEngine
       end
     end
   end
-end
